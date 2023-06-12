@@ -1,0 +1,596 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    padding: .8% 10%;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+header p {
+    font-size: 30px;
+    color: #478AC9;
+    margin-bottom: 10px;
+    margin-top: 10px;
+   
+}
+
+#firsttitle {
+    font-weight: bold;
+}
+
+header ul li {
+    list-style-type: none;
+    display: inline;
+    font-size: 15px;
+    margin: 0 20px;
+
+}
+
+
+
+header a {
+    text-decoration: none;
+}
+
+header a:link {
+    color: #333333;
+}
+
+header a:visited {
+    color: #478AC9
+}
+
+
+
+
+
+#intro_section_1 {
+    background-image: url(../Image/smiling-female-business-leader-with-arms-crossed.jpg);
+    height: 750px;
+    background-repeat: no-repeat;
+    padding: 10%;
+}
+
+#intro_div {
+    float: right;
+    background-color: #fff;
+    border-radius: 30px 0px 0px 30px;
+    width: 40%;
+    line-height: 15px;
+    padding: 10px 50px 10px 30px;
+
+}
+
+#intro_div h1 {
+    font-size: 50px;
+    color: #478AC9;
+}
+
+
+#intro_div #p2 {
+    color: #333333;
+
+}
+
+
+
+
+
+
+#innovative_section_2 {
+    background-color: #E9F2FA;
+    padding: 5% 10%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -20%;
+}
+
+#innovative_section_2 #title {
+    font-size: 30px;
+    margin-top: -20px;
+
+}
+
+
+#section2_ul {
+    list-style-image: url(../Image/play-button.png);
+    margin-left: -15px;
+    margin-top: -15px;
+}
+
+#section2_ul li {
+    line-height: 36px;
+    font-weight: bold;
+
+}
+
+#section2_div_01 {
+    width: 25%;
+    display: flex;
+
+}
+
+#section2_div1 h1 {
+    font-size: 40px;
+    color: #478AC9;
+}
+
+#section2_div1 hr {
+    width: 45px;
+    height: 5px;
+    background-color: #478AC9;
+    border: 0 none;
+    margin-top: 60%;
+
+}
+
+#section2_div2 {
+    background-color: #fff;
+    width: 45%;
+    border-radius: 30px 0px 0px 30px;
+    padding: 25px 25px;   
+    line-height: 25px;
+}
+
+#section2_div2 #p1 {
+    font-weight: bold;
+}
+
+#section2_div2 #p2 {
+    color: #478AC9;
+}
+
+
+
+
+
+
+
+#section_3 {
+    padding: 5% 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#section3_div_title {
+    width: 200px;
+    font-size: 30px;
+}
+
+#section3_div_product {
+    display: flex;
+    gap: 3%;
+    font-weight: bold;
+}
+
+.section3_div_blue {
+    background-color: #478AC9;
+    border-radius: 30px;
+    color: #fff;
+    width: 245px;
+    height: 250px;
+    padding: 1% 4%;
+    position: relative;
+}
+
+
+.section3_div_img {
+    width: 65px;
+    height: 65px;
+    position: absolute;
+    right: 10%;
+    bottom: 10%;
+}
+
+
+
+
+
+#section_4 {
+    background-image: url(../Image/low-angle-businessman.jpg);
+    background-repeat: no-repeat;
+    height: 500px;
+    padding: 10%;
+}
+
+#section_4 div {
+    background-color: #fff;
+    border-radius: 0px 30px 30px 0px;
+    width: 40%;
+    padding: 10px 50px 10px 30px;
+
+}
+
+#section_4 h1 {
+    font-size: 30px;
+}
+
+#section_4 p {
+    line-height: 25px;
+    margin-bottom: 10%;
+}
+
+
+
+
+#section_5 {
+    text-align: center;
+}
+
+#section5_title {
+    color: #478AC9;
+    font-size: 30px;
+    margin-top: 4%;
+}
+
+#section_5 p {
+    padding: 0% 23%;
+    font-size: 15px;
+}
+
+#section5_section {
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    justify-content: space-between;
+    gap: 2%;
+    padding: 3% 10%;
+}
+
+#section5_section h3 {
+    font-size: 17px;
+    margin-top: 0;
+}
+
+.section5_div {
+    background-color: #F2F2F2;
+    border-radius: 40px;
+    width: 17%;
+    padding: 5% 2%;
+
+}
+
+.h1_num_blue {
+    font-size: 45px;
+    color: #478AC9;
+    display: inline;
+    line-height: 55px;
+}
+
+
+
+
+
+
+
+
+
+.imgContainer {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    margin-top: 3%;
+
+}
+
+.imgContainer p {
+    text-align: center;
+    word-spacing: 2%;
+    margin-bottom: 4%;
+}
+
+.imgchild {
+    width: 340px;
+    height: 340px;
+    object-fit: cover;
+    margin: 1%;
+
+}
+
+
+
+
+.section7_container {
+    background-color: #478AC9;
+    padding: 3% 10%;
+    color: white;
+    height: 180px;
+}
+
+.section7_container h2 {
+    margin-bottom: 40px;
+}
+
+.section7_container button {
+    background-color: white;
+    width: 12%;
+    border: none;
+}
+
+
+
+.section9_Div1 {
+    width: 41%;
+    text-align: left;
+    padding-top: 8%;
+    padding-left: 10%;
+
+}
+
+.section9_Div1 h2 {
+    font-size: 30px;
+}
+
+.section9_Div1 p {
+    font-size: 20px;
+}
+
+.section9_Div1 button {
+    background-color: #478AC9;
+    color: white;
+    width: 38%;
+    height: 50px;
+    margin-top: 3%;
+
+}
+
+.sec7_9_button {
+    border: none;
+    border-radius: 14px;
+    padding: 12px;
+    font-size: 13px;
+    font-weight: bold;
+
+}
+
+.section9img {
+    width: 55px;
+    object-fit: contain;
+
+}
+
+.section9_Div2_parent {
+    display: flex;
+    padding: 7rem 0;
+    width: 60%;
+    gap: 2.5%;
+    
+
+}
+
+.section9_Div2_child {
+    background-color: #478AC9;
+    border-radius: 35px;
+    
+    font-size: 20px;
+    color: white;
+    margin: 0 auto;
+    padding-top: 16%;
+    text-align: center;
+
+
+
+}
+
+.divsec9img {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(245, 243, 243);
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    padding: 17px;
+    position: absolute;
+    top: -3.5rem;
+    left: 32.8%;
+
+
+}
+
+.section9_button {
+    border-radius: 18px;
+    padding: 10px 37px;
+    margin-bottom: 18%;
+    margin-top: 10%;
+}
+
+.section9_Div2_child P {
+    font-size: 15px;
+    margin-bottom: 0;
+}
+
+.section9_Div2_child h2 {
+    font-size: 16px;
+    margin-bottom: 12%;
+    font-weight: normal;
+}
+
+.section9_Div2_child h1 {
+    font-size: 55px;
+    margin-bottom: 30px;
+}
+
+#btn_hide_show{
+    background-color:#007bb5;
+    color: #fff;
+    border: none;
+    border-radius: 14px;
+    padding: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 40%;
+}
+#div10container {
+    background-image: url(../Image/sec9.jpg);
+    background-repeat: no-repeat;
+    height: 900px;
+    position: relative;
+
+}
+
+#form {
+    background-color: white;
+    width: 43%;
+    padding: 1.5% 2%;
+    box-sizing: border-box;
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+    position: absolute;
+    top: 15%;
+    left: 10%;
+
+}
+
+.bigSize_form {
+    font-size: 19px;
+}
+
+.inpform {
+    background-color: #e5eff5;
+    border-radius: 10px;
+    width: 95%;
+    padding: 2.5% 2%;
+    border: none;
+    font-size: 14px;
+    margin-top: 1%;
+
+}
+
+::placeholder {
+    color: rgb(150, 150, 150);
+}
+
+span {
+    color: #478AC9;
+}
+
+#submitform {
+    width: 98%;
+    color: white;
+    background-color: #478AC9;
+    border: none;
+    padding: 3%;
+    border-radius: 10px;
+    font-size: 22px;
+}
+
+#footer {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333333;
+    box-sizing: border-box;
+    padding: 0% 10%;
+
+}
+
+.socialimg {
+    width: 20px;
+    object-fit: contain;
+}
+
+#brilliantfoter {
+    color: #478AC9;
+    font-size: 19px;
+}
+
+#copywrite {
+    color: white;
+    font-size: 14px;
+
+}
+
+/* start JS sticky bar*/
+.icon-bar {
+    position: fixed;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: 66666;
+}
+
+/* Style the icon bar links */
+.icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+
+}
+
+/* Style the social media icons with color, if you want */
+.icon-bar a:hover {
+    background-color: #000;
+}
+
+.facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.google {
+    background: #dd4b39;
+    color: white;
+}
+
+.linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.youtube {
+    background: #bb0000;
+    color: white;
+}
+
+/* JS scroll to top button*/
+#myBtn {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Fixed/sticky position */
+    bottom: 20px;
+    /* Place the button at the bottom of the page */
+    right: 30px;
+    /* Place the button 30px from the right */
+    z-index: 99;
+    /* Make sure it does not overlap */
+    border: none;
+    /* Remove borders */
+    outline: none;
+    /* Remove outline */
+    background-color: #478AC9;
+    /* Set a background color */
+    color: white;
+    /* Text color */
+    cursor: pointer;
+    /* Add a mouse pointer on hover */
+    padding: 15px;
+    /* Some padding */
+    border-radius: 50%;
+    /* Rounded corners */
+    font-size: 18px;
+    /* Increase font size */
+}
+
+#myBtn:hover {
+    background-color: rgb(192, 192, 192);
+    /* Add a dark-grey background on hover */
+}
+
+
